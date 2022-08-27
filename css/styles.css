@@ -87,13 +87,36 @@ ul {
   justify-content: space-between; 
 }
 
+.envelope-maill {
+  width: 16px;
+  height: 12px;
+  fill: var(--icon-color); 
+  margin-right: 10px;
+}
 
+
+
+
+
+.envelope-phone {
+  width: 10px;
+  height: 16px;
+  fill: var(--icon-color); 
+  margin-right: 10px;
+}
+
+.contact-maill-menu {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
 
 
 .navigation {
   display: flex;
   align-items: center;
 }
+
 
 .menu {
   display: flex;
@@ -139,7 +162,7 @@ background-color: var(--secondary-text-color-theme-light);
 color: var(--primary-text-color);
 }
 
-.contact-mail,
+.contact-maill,
 .contact-phone-number {
 font-family: var(--primary-font);
 font-weight: 500;
@@ -150,14 +173,15 @@ color: var(--primary-text-color-theme-light);
 
 
 
-.contact-mail:hover,
-.contact-mail:focus,
+.contact-maill:hover,
+.contact-maill:focus,
 .contact-phone-number:hover,
 .contact-phone-number:focus {
 color: var(--secondary-text-color-theme-light);
+fill: var(--secondary-text-color-theme-light);
 }
 
-.contact-mail {
+.contact-maill {
   margin-left: auto;
   margin-right: 48px;
 }
@@ -339,7 +363,7 @@ text-align: center;
 .social-list-icon {
   width: 20px;
   height: 20px;
-  fill: var(--icon-color);
+  fill: var(--primary-text-color-theme-light)
 }
 
 .social-list {
@@ -430,8 +454,55 @@ color: var(--primary-text-color);
   margin-bottom: 9px;
 }
 
+.footer-sociale-list {
+  align-items: baseline;
+}
 
+.footer-sociale {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-text-color); 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 
+.social-list-icon-footer {
+  width: 20px;
+  height: 18.25px;
+  fill: var(--primary-text-color) 
+}
+
+.social-list-footer {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.social-list-link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+  background-color: var(--secondary-text-color-theme-light);
+}
+
+.social-list-link-footer:hover .social-list-icon-footer,
+.social-list-link-footer:focus .social-list-icon-footer {
+  fill: var(--primary-text-color);
+}
 
 .btn {
 cursor: pointer;
