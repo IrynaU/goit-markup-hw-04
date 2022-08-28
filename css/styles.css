@@ -412,6 +412,33 @@ color: var(--primary-text-color-theme-light);
 margin-bottom: 16px;
 }
 
+.clients-box {
+  display: flex;
+  align-items: center;
+}
+
+.clients {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+
+.clients:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-icon {
+  fill: var(--icon-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
 .footer-box {
   display: flex;
   align-items: baseline;
