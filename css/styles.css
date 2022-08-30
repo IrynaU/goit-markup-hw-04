@@ -592,6 +592,7 @@ border-radius: 4px;
 
 .picture {
   max-width: 100%;
+  height: auto;
 }
 
 
